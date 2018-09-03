@@ -1,0 +1,13 @@
+
+
+.tipografia, body, h2, h1, p {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h2, h1 {
+    color: teal
+}
+
+section {
+    background-color: #f5f5f5
+}
