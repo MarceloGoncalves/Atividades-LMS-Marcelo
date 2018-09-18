@@ -1,6 +1,6 @@
 @font-face{
-    font-family: "fonteW3";
-    src: url(../res/fontawesome-free-5.3.1-web/webfonts/fa-solid-900.eot);
+    font-family: "fontawesome";
+    src: url(../lib/font/fontawesome.woff);
     font-weight: normal;
     font-style: normal;
 }
@@ -10,9 +10,10 @@
 }
 .w3-div-logo{
     margin:4px 0 6px 0;
+    width: 49.999%
 }
 .w3-logo{
-    font-family: fonteW3;
+    font-family: fontawesome;
     text-decoration: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
@@ -20,33 +21,34 @@
     letter-spacing: 3px;
     color: #555555;
     display: block;
-    position: absolute;
+    position: relative;
     top: 17px;
+    box-sizing: inherit;
 }
 
 .w3-white{
     color: #000;
     background-color: #fff;
 }
-.w3-container{
-    padding: 0.01em 16px;
-}
-.top {
-    position: relative;
+
+.container-top {
+    margin-top: 5px;
+    padding: 8px 16px;
     background-color: #fff;
-    height: 68px;
-    padding-top: 20px;
-    line-height: 50px;
     overflow: hidden;
-    z-index: 2;
 }
-.w3-right {
-    float: right!important;
+.w3-float-right {
+    float: right;
 }
 .w3-tipografia{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 4px;
 }
-.w3-logo dotcom{
+.w3-logo .dotcom{
     color: #4CAF50;
+}
+.w3-body{
+    position: relative;
+    min-height: 100%;
+
 }
